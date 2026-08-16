@@ -18,7 +18,7 @@ Los usuarios pueden explorar el catálogo, consultar los detalles de cada produc
 
 Para ejecutar el proyecto localmente, primero cloná el repositorio:
 
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/Juampimas/mi-ecommerce
 
 Instalá las dependencias:
 
