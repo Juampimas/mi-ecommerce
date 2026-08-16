@@ -1,16 +1,30 @@
-# React + Vite
+# Petshop ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de productos para mascotas desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+El proyecto simula una tienda online especializada en productos para diferentes tipos de mascotas, incluyendo perros, gatos, hámsters, aves y otros pequeños animales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Los usuarios pueden explorar el catálogo, consultar los detalles de cada producto, filtrar productos por categoría y gestionar sus productos dentro del carrito de compras.
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React — Biblioteca utilizada para construir la interfaz de usuario.
+- Vite — Herramienta de desarrollo y build del proyecto.
+- JavaScript (ES6+) — Lenguaje principal utilizado para la lógica de la aplicación.
+- JSX — Estructura de la aplicación.
+- CSS3 / SCSS — Estilos y diseño responsive.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para ejecutar el proyecto localmente, primero cloná el repositorio:
+
+git clone URL_DEL_REPOSITORIO
+
+Instalá las dependencias:
+
+npm install
+▶️ Ejecutar el proyecto
+
+Para iniciar el servidor de desarrollo:
+
+npm run dev
