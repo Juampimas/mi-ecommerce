@@ -1,0 +1,28 @@
+.cart_widget{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .react_icon:hover{
+        background-color: none;
+        border: none;
+        cursor: pointer;
+    }
+    .cart_number{
+        font-size: .8rem;
+        color: var(--white);
+        position: absolute;
+        top: -1rem;
+        right: -.7rem;
+        .number_circle{
+            width: 1.2rem;
+            height: 1.2rem;
+            background-color: var(--dark-orange);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+    }
+}
