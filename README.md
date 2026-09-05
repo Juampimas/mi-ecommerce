@@ -14,6 +14,12 @@ Los usuarios pueden explorar el catálogo, consultar los detalles de cada produc
 - JSX — Estructura de la aplicación.
 - CSS3 / SCSS — Estilos y diseño responsive.
 
+## Componentes
+- Navbar
+- CartWidget
+- ItemListContainer
+
+
 ## Instalación
 
 Para ejecutar el proyecto localmente, primero cloná el repositorio:
