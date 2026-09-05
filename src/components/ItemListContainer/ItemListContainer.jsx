@@ -1,9 +1,12 @@
 import styles from "./ItemListContainer.module.scss"
+import ItemList from "../ItemList/ItemList"
 
-function ItemListContainer({greeting="Bienvenido default"}) {
+function ItemListContainer() {
+  
+
   return (
     <div className={styles.container}>
-        <h1>{greeting}</h1>
+        <ItemList />
     </div>
   )
 }
