@@ -31,10 +31,29 @@
             -webkit-box-orient: vertical;  
             overflow: hidden; 
         }
-        .prod_price{
-            font-family: var(--font-main);
-            color: var(--primary);
-            font-size: 2rem;
+        .flex_info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 1rem;
+            .prod_price{
+                font-family: var(--font-main);
+                color: var(--primary);
+                font-size: 2rem;
+            }
+            .show_btn{
+                padding: .5rem 1rem;
+                border-radius: 10px;
+                background-color: var(--primary);
+                color: var(--white);
+                text-decoration: none;
+                font-size: 1rem;
+                transition: all 200ms ease;
+                &:hover{
+                    background-color: var(--dark-orange);
+                }
+            }
         }
     }
 }

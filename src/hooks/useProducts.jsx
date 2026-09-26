@@ -36,18 +36,6 @@ function useProducts() {
 
     },[])
 
-    // function getProducts(){
-    //     return new Promise((resolve, reject) => {
-    //         setTimeout(() => {
-    //             if(products){
-    //                 resolve(products)
-    //             } else {
-    //                 reject(new Error("No se pudieron cargar los productos"))
-    //             }
-    //         }, 2000)
-    //     })
-    // }
-
   return {products, loading, error}
 }
 

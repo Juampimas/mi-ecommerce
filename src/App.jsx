@@ -1,16 +1,10 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import AppRouter from './router/AppRouter'
 
 function App() {
 
   return (
-    <>
-      <Navbar />    
-      <ItemListContainer
-        greeting="¡Bienvenido a mi Petshop!" 
-      />
-    </>
+      <AppRouter />
   )
 }
 
