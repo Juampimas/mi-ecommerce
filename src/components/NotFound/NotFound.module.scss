@@ -1,0 +1,32 @@
+.notfound_container{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-color: #242424;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-family: var(--font-main);
+    img{
+        width: 25rem;
+        height: 25rem;
+        object-fit: cover;
+    }
+        .notfound_btn{
+                width: 10rem;
+                padding: 1rem;
+                background-color: var(--primary);
+                color: var(--text);
+                font-family: var(--font-main);
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 200ms ease;
+                font-size: 1rem;
+                &:hover{
+                    scale: 0.98;
+                }
+            }
+}

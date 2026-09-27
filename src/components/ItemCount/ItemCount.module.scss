@@ -1,0 +1,39 @@
+.detail_count_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    width: 100%;
+    .detail_count_btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        width: 25%;
+        .detail_count{
+            width: 2.5rem;
+            height: 2rem;
+            background-color: var(--primary);
+            color: var(--text);
+            border-radius: 5px;
+            border:none;
+            cursor: pointer;
+        }
+    }
+    .detail_btn{
+                width: 80%;
+                padding: 1rem;
+                background-color: var(--primary);
+                color: var(--text);
+                font-family: var(--font-main);
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 200ms ease;
+                font-size: 1rem;
+                &:hover{
+                    scale: 0.98;
+                }
+            }
+}

@@ -1,8 +1,7 @@
+import ItemCount from "../ItemCount/ItemCount";
 import styles from "./ItemDetail.module.scss"
 
 function ItemDetail({item}) {
-
-  console.log(item);
   
 
   return (
@@ -13,7 +12,7 @@ function ItemDetail({item}) {
           <p className={styles.detail_desc}>{item?.description}</p>
           <p className={styles.detail_price}>${item?.price.toLocaleString()}</p>
           <p className={styles.detail_stock}>Stock: {item?.stock}</p>
-          <button className={styles.detail_btn}>Añadir al carrito</button>
+          <ItemCount item={item} />
         </div>
     </div>
   )
