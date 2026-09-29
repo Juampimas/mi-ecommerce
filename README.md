@@ -25,6 +25,10 @@ Los usuarios pueden explorar el catálogo, consultar los detalles de cada produc
 - ItemCount
 - Loader
 - NotFound
+- CartContainer
+- CartDetail
+- CartItem
+- CartList
 
 
 ## Instalación
