@@ -18,6 +18,13 @@ Los usuarios pueden explorar el catálogo, consultar los detalles de cada produc
 - Navbar
 - CartWidget
 - ItemListContainer
+- ItemList
+- Item
+- ItemDetailContainer
+- ItemDetail
+- ItemCount
+- Loader
+- NotFound
 
 
 ## Instalación
