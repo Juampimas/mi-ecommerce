@@ -1,0 +1,11 @@
+.cart_container{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-color: #242424;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-family: var(--font-main);
+}

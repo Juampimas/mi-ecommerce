@@ -21,7 +21,7 @@ function ItemDetailContainer() {
             setItem(data)
           })
           .catch((error) => {
-            setError("No se pudo cargar el prducto: ",error)
+            setError("No se pudo cargar el producto: ",error)           
           })
           .finally(() => {
             setLoading(false)

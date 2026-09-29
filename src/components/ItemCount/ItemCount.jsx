@@ -1,9 +1,13 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import styles from "./ItemCount.module.scss"
+import { CartContext } from "../../context/CartContext"
 
 
 function ItemCount({item}) {
-  const [count, setCount] = useState(0)
+
+  const [count, setCount] = useState(1)
+  
+  const {AddToCart} = useContext(CartContext)
 
   function handleSubstract(){
     if(count > 1){
@@ -36,7 +40,7 @@ function ItemCount({item}) {
                 +
             </button>
         </div>
-      <button className={styles.detail_btn}>
+      <button onClick={() => AddToCart({...item, count})} className={styles.detail_btn}>
         Añadir al carrito
       </button>
     </div>

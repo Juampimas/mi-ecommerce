@@ -16,7 +16,12 @@ export async function getProductById(productId) {
     return await new Promise((resolve, reject) => {
       setTimeout(() => {
         if (localProducts) {
-          resolve(localProducts.find((prod) => prod.id === Number(productId)));
+          const product = localProducts.find((p) => p.id === Number(productId));
+          if (!product) {
+            reject(new Error(`No se encontró el producto con id ${productId}`));
+            return;
+          }
+          resolve(product);
         } else {
           reject(new Error("No se pudo cargar el producto"));
         }
